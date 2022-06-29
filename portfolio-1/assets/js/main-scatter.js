@@ -230,7 +230,7 @@ function ready(movies) {
 }
 
 //Load Data
-d3.csv('portfolio-1/D3.js/scatter_chart/movies.csv', type).then(
+d3.csv('/portfolio-1/D3.js/scatter_chart/movies.csv', type).then(
     res => {
         ready(res);
         // console.log(res);
