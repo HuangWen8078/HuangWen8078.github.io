@@ -228,7 +228,7 @@
     
     
     
-    d3.csv('../D3.js/bar_chart/movies.csv',type).then(
+    d3.csv('/portfolio-1/D3.js/bar_chart/movies.csv',type).then(
         res => {
             ready(res);
             // console.log(res);
